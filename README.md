@@ -15,7 +15,8 @@ Can be used inside (max-width), (min-width)
 
 (fluid images)
 
-```._ibg {
+```
+._ibg {
   position: relative;
   img {
     position: absolute;
@@ -25,7 +26,8 @@ Can be used inside (max-width), (min-width)
     left: 0;
     object-fit: cover;
   }
-}```
+}
+```
 
 for parent (with class ._ibg)
 `padding-bottom: 100%;` (or hieght of image / width of image %)
