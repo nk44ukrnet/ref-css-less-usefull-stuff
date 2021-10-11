@@ -6,14 +6,16 @@
 Responsive font size.
 Can be used inside (max-width), (min-width)
 
-<code>.font-fluid(@min, @max, @maxWidth: 1200) {
+```
+.font-fluid(@min, @max, @maxWidth: 1200) {
   font-size: calc(@min*1px + (@max - @min) * ((100vw - 320px) / (@maxWidth - 320)));
-}</code>
+}
+```
 
 
 (fluid images)
 
-``._ibg {
+```._ibg {
   position: relative;
   img {
     position: absolute;
@@ -23,7 +25,7 @@ Can be used inside (max-width), (min-width)
     left: 0;
     object-fit: cover;
   }
-}``
+}```
 
 for parent (with class ._ibg)
 `padding-bottom: 100%;` (or hieght of image / width of image %)
