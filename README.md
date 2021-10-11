@@ -1,5 +1,7 @@
-# ref-css-less-usefull-stuff
+# ref-css-less-usefull-stuff 
 
+
+##(fluid font sizes)
 Responsive font size.
 Can be used inside (max-width), (min-width)
 
