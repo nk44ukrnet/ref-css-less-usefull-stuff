@@ -31,3 +31,13 @@ Can be used inside (max-width), (min-width)
 
 for parent (with class ._ibg)
 `padding-bottom: 100%;` (or hieght of image / width of image %)
+
+Useful selectors:
+```
+a[href^="http"] — begins with
+a[href$=".com"] — ends with
+
+
+a[href*="://"] - contains letters/symbols (all outer links)
+a[class~="cool"] - contains word
+```
