@@ -41,3 +41,9 @@ a[href$=".com"] — ends with
 a[href*="://"] - contains letters/symbols (all outer links)
 a[class~="cool"] - contains word
 ```
+
+
+:focus-within selector
+check focus-within.html and corresponding styles
+
+When children element has focus - :focus-within (if it is set on the parent) - trigers (files in this repo ref-html) https://github.com/nk44ukrnet/html-ref
