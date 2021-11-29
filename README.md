@@ -47,3 +47,11 @@ a[class~="cool"] - contains word
 check focus-within.html and corresponding styles
 
 When children element has focus - :focus-within (if it is set on the parent) - trigers (files in this repo ref-html) https://github.com/nk44ukrnet/html-ref
+
+### option checked css
+
+```
+select option:default {
+  color: red;
+}
+```
