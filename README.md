@@ -55,3 +55,8 @@ select option:default {
   color: red;
 }
 ```
+
+### image rendering
+
+when scaling image -> use
+`crisp-edges: crisp-edges;` - firefox  `crisp-edges: pixelated;` - chrome
