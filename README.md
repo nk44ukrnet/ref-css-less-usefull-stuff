@@ -66,3 +66,29 @@ select option:default {
 
 when scaling image -> use
 `crisp-edges: crisp-edges;` - firefox  `crisp-edges: pixelated;` - chrome
+
+
+### new text decoration styles
+
+```
+      h2:nth-of-type(1) {
+        text-decoration-line: underline;
+        text-decoration-skip-ink: auto;
+        text-decoration-color: orange;
+        /* text-decoration-skip: spaces objects edges box-decoration; */
+      }
+      h2:nth-of-type(2) {
+        text-decoration-line: overline;
+        text-decoration-color: hsla(50, 50%, 50%, 0.8);
+        text-decoration-thickness: 2rem;
+      }
+      h2:nth-of-type(3) {
+        text-decoration-line: line-through;
+        text-decoration-color: hsla(50, 0%, 50%, 0.6);
+        text-decoration-style: dashed;
+      }
+      h2:nth-of-type(4) {
+        text-decoration-line: underline overline;
+        text-decoration-style: dotted;
+      }
+```
