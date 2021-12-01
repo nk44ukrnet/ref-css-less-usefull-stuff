@@ -12,6 +12,12 @@ Can be used inside (max-width), (min-width)
 }
 ```
 
+```
+/* font-size: calc(1vh + 1vw + 6px); */
+  font-size: calc(16px + (36 - 16) * ((100vw - 300px) / (2000 - 300)));
+/* calc(minFont + (maxFont-minFont) * ((100vw-minWidth) / (maxWidth - minWidth)) ) */
+```
+
 
 (fluid images)
 
